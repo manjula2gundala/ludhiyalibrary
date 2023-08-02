@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(https://www.pcclean.io/wp-content/uploads/2020/4/ZfUVBv.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+}
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+
+}
+.nav-links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:fuchsia;
+    display: block;
+    margin: auto;
+    transition: 1.0s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color:aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 70px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(245, 16, 16);
+    border: 1px solid red;
+    padding: 12px 35px;
+    font-size: 20px;
+    background:rgb(128, 218, 149);
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn1{                                      
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(245, 16, 16);
+    border: 1px solid red;
+    padding: 12px 35px;
+    font-size: 20px;
+    background:rgb(153, 243, 174);
+    position: relative;
+    cursor: pointer;
+}
+
+                                                /*About*/
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    /*background-image: url(https://www.impactplus.com/hs-fs/hubfs/blog-image-uploads/best-about-us-pages.jpg?length=1200&name=best-about-us-pages.jpg); 
+    height: 100px;*/
+
+}     
+h1{
+    font-size: 35px;
+    font-weight: 600;
+}     
+p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+}   
+.row{
+    margin-top: 5%;
+    justify-content: space-between;
+}    
+.about-col{
+    background: lightcoral;
+    margin-bottom: 5%;
+}      
+                /*Features*/                      
+.Features{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+                                         /*contact*/
+.Contact{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+   top: 0%;
+    
+}  
+.contact2{
+    margin: auto;
+    padding-top: 50px;
+    font-family: cursive;
+    background-image: url(https://i0.wp.com/titansteel.in/wp-content/uploads/2021/01/contact_us_bg.jpg?fit=1000%2C472&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+/*                             comment            */
+.comment{
+    border: 1px solid blue;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.c-form input, .c-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background:rgb(128, 218, 149);
+}
+                                        /* sign in*/
+  .Sign-in{
+    text-align: center;
+    padding: 10px;
+    color: brown;
+  }                                      
+                      /* username*/
+.username{
+        display: inline-block;
+        padding: 7px;
+        border-radius: 10px;
+}
